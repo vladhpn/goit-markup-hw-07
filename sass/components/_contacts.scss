@@ -1,0 +1,32 @@
+.auth-nav {
+  display: inline-flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.auth-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.auth-nav__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+}
+
+.auth-nav__contacts:hover .email-icon {
+  fill: $accent-color;
+}
+
+.auth-nav__contacts:hover .phone-icone {
+  fill: $accent-color;
+}
+
+.auth-nav__contacts:hover {
+  color: $accent-color;
+}

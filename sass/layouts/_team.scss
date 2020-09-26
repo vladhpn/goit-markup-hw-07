@@ -1,0 +1,88 @@
+.team {
+  background-color: $backround-color-3;
+}
+
+.team-title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: $title-text-color;
+}
+
+.team-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-item {
+  width: calc((100% - 30px * 3) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: $title-text-color;
+}
+
+.team-job {
+  margin-bottom: 30px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.team-social__link:hover .team-social__icon {
+  fill: $primary-color;
+}
+
+.team-social__link:hover {
+  background-color: $accent-color;
+}
+
+.team-social__icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}
+
+.team-social__icon__item {
+  margin-bottom: 30px;
+}
+
+.team-social__icon__item:not(:last-child) {
+  margin-right: 10px;
+}

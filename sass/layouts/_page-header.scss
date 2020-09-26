@@ -1,0 +1,9 @@
+.page-header {
+  border: 1px solid #ececec;
+  background-color: $primary-color;
+}
+
+.page-header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
