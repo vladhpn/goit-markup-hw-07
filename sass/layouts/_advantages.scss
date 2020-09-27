@@ -7,10 +7,10 @@
 .advantages-list {
   width: calc((100% - 30px * 3) / 4);
   padding-bottom: 94px;
-}
 
-.advantages-list:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .advantages__title {

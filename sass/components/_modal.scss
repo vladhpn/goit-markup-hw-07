@@ -72,17 +72,17 @@
   border-radius: 4px;
   padding: 12px 42px;
   transition: transform 250ms $timing-function;
-}
 
-.form-field:focus {
-  outline: transparent;
-  border: 1px solid $accent-color;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
+  &:focus {
+    outline: transparent;
+    border: 1px solid $accent-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 
-.form-field:focus + .modal-form__icon {
-  fill: $accent-color;
+  &:focus + .modal-form__icon {
+    fill: $accent-color;
+  }
 }
 
 .modal-form__title {
@@ -102,13 +102,13 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: transform 250ms $timing-function;
-}
 
-.modal-form__comment:focus {
-  outline: transparent;
-  border: 1px solid $accent-color;
-  box-sizing: border-box;
-  border-radius: 4px;
+  &:focus {
+    outline: transparent;
+    border: 1px solid $accent-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
 
 .modal-checkbox {

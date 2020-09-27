@@ -17,16 +17,13 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $primary-text-color;
-}
 
-.auth-nav__contacts:hover .email-icon {
-  fill: $accent-color;
-}
+  &:hover .email-icon,
+  &:hover .phone-icone {
+    fill: $accent-color;
+  }
 
-.auth-nav__contacts:hover .phone-icone {
-  fill: $accent-color;
-}
-
-.auth-nav__contacts:hover {
-  color: $accent-color;
+  &:hover {
+    color: $accent-color;
+  }
 }

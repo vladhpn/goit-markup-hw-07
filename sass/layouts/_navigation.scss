@@ -21,15 +21,15 @@
   letter-spacing: 0.02em;
   color: $title-text-color;
   text-decoration: none;
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $accent-color;
+  }
 }
 
 .site-nav__item .current {
